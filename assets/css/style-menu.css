@@ -147,8 +147,8 @@ body{
     }
     .titulo-menu{
         font-size: 1rem;
-        padding: 1rem;
-        height: 70px;
+        padding: 0.5rem;
+        height: 100px;
     }
     .mascara_img {
         position: absolute;
@@ -171,12 +171,12 @@ body{
         text-shadow: 2px 2px 5px  rgb(255, 255, 255);
         margin-top: 0px;
         opacity:1;
-        color: black; 
+        color: rgb(255, 255, 255); 
     } 
          
     .pizzas:hover  .mascara_img h1{
         opacity: 1;
-        color: rgb(0, 0, 0);
+        color: rgb(255, 255, 255);
     }
     
 }
@@ -191,6 +191,7 @@ body{
     .titulo-menu{
         font-size: 1rem;
         padding: 0.5rem;
+       
     }
     .mascara_img {
         position: absolute;
@@ -213,12 +214,12 @@ body{
         text-shadow: 2px 2px 5px  rgb(255, 255, 255);
         margin-top: 0px;
         opacity:1;
-        color: black; 
+        color: rgb(255, 255, 255); 
     } 
          
     .pizzas:hover  .mascara_img h1{
         opacity: 1;
-        color: rgb(0, 0, 0);
+        color: rgb(255, 255, 255);
     }
     
 }
@@ -235,6 +236,7 @@ body{
     .titulo-menu{
         font-size: 1rem;
         padding: 0.5rem;
+        
     }
     .mascara_img {
         position: absolute;

@@ -52,6 +52,7 @@ body{
 
 .titulo-menu h1{
     color: yellow;
+    
 }
 .contenedor-menu{
     display: flex;
@@ -146,12 +147,12 @@ body{
         text-shadow: 2px 2px 5px  rgb(255, 255, 255);
         margin-top: 0px;
         opacity:1;
-        color: black; 
+        color: rgb(255, 255, 255); 
     } 
          
     .pizzas:hover  .mascara_img h1{
         opacity: 1;
-        color: rgb(0, 0, 0);
+        color: rgb(255, 255, 255);
     }
     
 }
@@ -190,12 +191,12 @@ body{
         text-shadow: 2px 2px 5px  rgb(255, 255, 255);
         margin-top: 0px;
         opacity:1;
-        color: black; 
+        color: rgb(255, 255, 255); 
     } 
          
     .pizzas:hover  .mascara_img h1{
         opacity: 1;
-        color: rgb(0, 0, 0);
+        color: rgb(255, 255, 255);
     }
 }
           
@@ -236,11 +237,11 @@ body{
          margin-top: 0px;
          font-weight:bold;
          opacity:1;
-         color: black; 
+         color: rgb(255, 255, 255); 
     } 
     .pizzas:hover  .mascara_img h1{
         opacity: 1;
-        color: rgb(0, 0, 0);
+        color: rgb(255, 255, 255);
     }
         
              
