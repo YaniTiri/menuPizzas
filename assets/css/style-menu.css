@@ -11,7 +11,7 @@ html{
 
 body{
     min-width: 320px;
-    font-family: 'Bebas Neue', cursive;
+    /* font-family: 'Bebas Neue', cursive; */
 }
 
 .menu-page {
@@ -41,6 +41,7 @@ body{
 }
 
 .titulo-menu{
+    height: 20%;
    font-size: 2rem;
    text-align: center;
    font-family: 'Montserrat', sans-serif;
@@ -55,8 +56,8 @@ body{
     color: yellow;
     
      animation-duration: 3s;
-    animation-name: tituloAnim;
-    /* animation-iteration-count: 3;   */
+     animation-name: tituloAnim;
+     /* animation-iteration-count: 3;    */
    
    
 }
@@ -135,6 +136,49 @@ body{
       /* margin-left: -100%; */
       width: 100%;
     }
+}
+@media screen and (max-width:320px) {
+    .conten{
+        width: 100vw;
+    }
+    .pizzas img{
+        
+        width: 100%;
+    }
+    .titulo-menu{
+        font-size: 1rem;
+        padding: 1rem;
+        height: 70px;
+    }
+    .mascara_img {
+        position: absolute;
+        top:0;
+        width: 100%;
+        height: 100%;
+        text-align: center;
+        align-items: center;
+        
+        background: none;
+        opacity: 1;
+        
+        z-index:1;
+    }
+        
+        
+     .mascara_img h1 {
+        
+        font-size: 26px;
+        text-shadow: 2px 2px 5px  rgb(255, 255, 255);
+        margin-top: 0px;
+        opacity:1;
+        color: black; 
+    } 
+         
+    .pizzas:hover  .mascara_img h1{
+        opacity: 1;
+        color: rgb(0, 0, 0);
+    }
+    
 }
 @media screen and (min-width:320px) {
     .conten{
